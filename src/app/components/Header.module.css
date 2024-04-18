@@ -1,0 +1,27 @@
+.header {
+    background-color: #00060c;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navLinks li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #555;
+  }
+  
+  .navLinks li a:hover {
+    background-color: #777;
+  }
+  

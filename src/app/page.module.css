@@ -1,0 +1,303 @@
+User
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+
+.form_wrapper {
+  background: #00111F;
+  width: 896px;
+  border-radius: 8px;
+  height: 564px;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 25px;
+  margin: 10% auto 0;
+  position: relative;
+  z-index: 1;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+.form_wrapper h2 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+.form_wrapper h3 {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+.form_wrapper .title_container {
+  text-align: left;
+  padding-bottom: 15px;
+}
+.form_wrapper h3 {
+  font-size: 1.1em;
+  font-weight: normal;
+  line-height: 1.5em;
+  margin: 0;
+}
+.form_wrapper .row {
+  margin: 10px -15px;
+}
+.form_wrapper .row > div {
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.form_wrapper .col_half {
+  width: 50%;
+  float: left;
+}
+.form_wrapper .input_field {
+  position: relative;
+  margin-bottom: 20px;
+}
+.form_wrapper .input_field > span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  text-align: center;
+  width: 30px;
+}
+.form_wrapper .input_field > span > i {
+  padding-top: 10px;
+}
+.form_wrapper .textarea_field > span > i {
+  padding-top: 10px;
+}
+.form_wrapper input[type=text] {
+  width: 100%;
+  padding: 8px 10px 9px 35px;
+  height: 35px;
+  box-sizing: border-box;
+  outline: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.form_wrapper input[type=text]:focus {
+  -webkit-box-shadow: 0 0 2px 1px #0085EA;
+  -moz-box-shadow: 0 0 2px 1px #0085EA;
+  box-shadow: 0 0 2px 1px #0085EA;
+  border: 1px solid #0085EA;
+}
+.form_wrapper input[type=email] {
+  width: 100%;
+  background-color: #00213A;
+  border: 1px solid #00213A;
+  border-radius: 8px;
+  padding: 8px 10px 9px 35px;
+  height: 35px;
+  box-sizing: border-box;
+  outline: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.form_wrapper input[type=date] {
+  width: 100%;
+  background-color: #00213A;
+  border: 1px solid #00213A;
+  border-radius: 8px;
+  padding: 8px 10px 9px 35px;
+  height: 35px;
+  box-sizing: border-box;
+  outline: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.form_wrapper input[type=email]:focus {
+  -webkit-box-shadow: 0 0 2px 1px #0085EA;
+  -moz-box-shadow: 0 0 2px 1px #0085EA;
+  box-shadow: 0 0 2px 1px #0085EA;
+  border: 1px solid #0085EA;
+}
+.form_wrapper input[type=password] {
+  width: 100%;
+  background-color: #00213A;
+  border-radius: 8px;
+  padding: 8px 10px 9px 35px;
+  height: 35px;
+  border: 1px solid #00213A;
+  box-sizing: border-box;
+  outline: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.form_wrapper input[type=password]:focus {
+  -webkit-box-shadow: 0 0 2px 1px #0085EA;
+  -moz-box-shadow: 0 0 2px 1px #0085EA;
+  box-shadow: 0 0 2px 1px #0085EA;
+  border: 1px solid #0085EA;
+}
+.form_wrapper input[type=submit] {
+  text-align: center;
+  background: #0085EA;
+  height: 35px;
+  line-height: 35px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.1em;
+  margin-bottom: 4px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.form_wrapper input[type=submit] {
+  font-size: 15;
+  text-align: center;
+  background: #0085EA;
+  height: 35px;
+  line-height: 35px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.1em;
+  margin-bottom: 4px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.inscreverse{
+  text-align: center;
+  background: #0085EA;
+  height: 35px;
+  line-height: 35px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.form_wrapper input[type=submit]:hover {
+  background: #0085EA;
+}
+.form_wrapper input[type=submit]:focus {
+  background: #0085EA;
+}
+.form_wrapper input[type=checkbox] {
+  margin-right: 2px;
+}
+
+.forgot_pw {
+  text-align: left;
+  color: #7DD3FC;
+}
+
+.text_cada{
+  text-align: left;
+  color: #7DD3FC;
+}
+
+.social_btn {
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+.social_btn a {
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  height: 35px;
+  text-decoration: none;
+}
+.social_btn a span {
+  border-radius: 8px;
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  font-size: 17px;
+  justify-content: center;
+  margin-right: 10px;
+  text-align: center;
+  width: 35px;
+}
+.social_btn.fb {
+  background: #0085EA;
+}
+.social_btn.fb span {
+  background: #0085EA;
+}
+.social_btn.tw {
+  background: #0085EA;
+}
+.social_btn.tw span {
+  background: #0085EA;
+}
+.social_btn.gplus {
+  background: #0085EA;
+}
+.social_btn.gplus span {
+  background: #0085EA;
+}
+
+
+
+.create_account a {
+  color: #0085EA;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bottom_row {
+  font-size: 0.7em;
+}
+.bottom_row a {
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .form_wrapper .col_half {
+    width: 100%;
+    float: none;
+  }
+
+  .bottom_row .col_half {
+    width: 50%;
+    float: left;
+  }
+
+  .form_container .row .col_half.last {
+    border-left: none;
+  }
+
+  .remember_me {
+    padding-bottom: 20px;
+  }
+}
